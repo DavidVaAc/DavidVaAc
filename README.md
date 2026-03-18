@@ -1,4 +1,4 @@
-# David Fernando Valle Acosta | Physicist & Data Scientist 🌌📊
+# David Fernando Valle Acosta | 🌌 Physicist & Data Scientist 📊
 
 Científico de datos con formación en **Física (UNAM)** y especialización en **Data Science (TripleTen/IBM)**. Mi enfoque combina el rigor del método científico con herramientas modernas de IA para transformar datos complejos en estrategias de negocio accionables.
 
