@@ -33,5 +33,6 @@ Análisis de rendimiento y durabilidad de materiales en canchas de arcilla.
 ### 📫 Contacto
 * 💼 [Portafolio](https://davidvaac.github.io/DavidVaAc/#)
 * 🌐 [Linkedin](www.linkedin.com/in/david-fernando-valle-acosta-b18268265)
+* 📋 [Curriculum](https://docs.google.com/document/d/1t2m0SgS912hJDlSGzo9B6llXbAxVLz02LnLs1u0yUOo/edit?usp=drive_link)
 * ✉️ davidfervalle@gmail.com
 * 📍 Cuernavaca, México.
