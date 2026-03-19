@@ -8,7 +8,7 @@ Científico de datos con formación en **Física (UNAM)** y especialización en 
 * **Especialidades:** Machine Learning, Web Scraping, Data Storytelling y Modelación Matemática.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&color=9400D3)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F37626?style=for-the-badge&logo=jupyter&logoColor=white&color=2E64FE)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-3499CD?style=for-the-badge&logo=scikit-learn&logoColor=white&color=2E64FE)
 ![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=postgresql&logoColor=white&color=FF00FF)
 ![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white&color=00FFFF)
 ![LaTeX](https://img.shields.io/badge/LaTeX-8e44ad?style=for-the-badge&logo=latex&logoColor=white&color=8626e2)
