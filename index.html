@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
-<style>
+    <style>
+        body { background-color: #0f172a; color: #f8fafc; }
+        .card { background-color: #1e293b; transition: transform 0.2s; }
+        .card:hover { transform: translateY(-5px); border-color: #38bdf8; }
         .cyber-bg {
             /* 1. Usamos tu imagen de fondo */
             background-image: url('cyber-bg.jpg'); /* ASEGÚRATE DE QUE EL NOMBRE COINCIDA */
@@ -24,8 +27,9 @@
             background-color: rgba(2, 6, 23, 0.85); /* Un azul/negro muy oscuro (bg-slate-950) con 85% de opacidad */
         }
     </style>
+    
 </head>
-<body class="cyber-bg text-slate-300 font-sans antialiased min-h-screen">
+<body class="cyber-bg font-sans antialiased">
 <div class="cyber-overlay">
 <nav class="sticky top-0 z-50 bg-[#0f172a]/80 backdrop-blur-md border-b border-slate-800">
     <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
