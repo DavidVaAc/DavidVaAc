@@ -10,7 +10,7 @@ Científico de datos con formación en **Física (UNAM)** y especialización en 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&color=9400D3)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-3499CD?style=for-the-badge&logo=scikit-learn&logoColor=white&color=2E64FE)
 ![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=postgresql&logoColor=white&color=FF00FF)
-![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white&color=00FFFF)
+![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white&color=008714)
 ![LaTeX](https://img.shields.io/badge/LaTeX-8e44ad?style=for-the-badge&logo=latex&logoColor=white&color=8626e2)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white&color=FF4500)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white&color=0000FF)
