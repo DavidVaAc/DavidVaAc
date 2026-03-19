@@ -8,16 +8,16 @@ Científico de datos con formación en **Física (UNAM)** y especialización en 
 * **Especialidades:** Machine Learning, Web Scraping, Data Storytelling y Modelación Matemática.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&color=9400D3)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-3499CD?style=for-the-badge&logo=scikit-learn&logoColor=white&color=39FF14)
 ![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=postgresql&logoColor=white&color=FF00FF)
-![LaTeX](https://img.shields.io/badge/LaTeX-8e44ad?style=for-the-badge&logo=latex&logoColor=white&color=8626e2)
 
 ![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white&color=00FFFF)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-3499CD?style=for-the-badge&logo=scikit-learn&logoColor=white&color=39FF14)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&color=00FA9A)
-
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white&color=2E64FE)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white&color=0000FF)
+![LaTeX](https://img.shields.io/badge/LaTeX-8e44ad?style=for-the-badge&logo=latex&logoColor=white&color=8626e2)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white&color=FF4500)
+
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white&color=0000FF)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&color=00FA9A)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white&color=2E64FE)
 ---
 
 ### 🚀 Proyectos Destacados
