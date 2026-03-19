@@ -40,6 +40,10 @@
         /* Aseguramos que el gradiente no se convierta en un color sólido */
             background-image: linear-gradient(to right, #60A5FA, #34D399) !important;
             }
+        /* Opcional: Si quieres que el efecto hover (opacidad) siga funcionando bien */
+            [data-darkreader-ignore]:hover {
+                opacity: 0.8 !important;
+    }
     </style>
     
 </head>
@@ -47,7 +51,9 @@
 <div class="cyber-overlay">
 <nav class="sticky top-0 z-50 bg-[#0f172a]/80 backdrop-blur-md border-b border-slate-800">
     <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
-        <a href="#" class="text-xl font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent hover:opacity-80 transition-opacity">
+        <a href="#"
+            data-darkreader-ignore
+            class="text-xl font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent hover:opacity-80 transition-opacity">
             DV
         </a>        
         <div class="flex items-center gap-6">
