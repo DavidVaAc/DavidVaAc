@@ -26,11 +26,20 @@
         .cyber-overlay {
             background-color: rgba(2, 6, 23, 0.85); /* Un azul/negro muy oscuro (bg-slate-950) con 85% de opacidad */
         }
-/* Esto ayuda a que el recorte del texto funcione incluso si hay extensiones activas */
+/* ... tus otros estilos (como el de la imagen de fondo) ... */
+
+    /* ESTO FUERZA AL GRADIENTE A MOSTRARSE */
         [data-darkreader-ignore] {
-        -webkit-background-clip: text !important;
-        background-clip: text !important;
-        }
+        /* Bloqueamos que Dark Reader cambie el color del texto a gris/blanco */
+            color: transparent !important;
+        
+        /* Forzamos que el fondo (el gradiente) sea visible detrás del texto */
+            background-clip: text !important;
+            -webkit-background-clip: text !important;
+        
+        /* Aseguramos que el gradiente no se convierta en un color sólido */
+            background-image: linear-gradient(to right, #00FFFF, #FF00FF) !important;
+            }
     </style>
     
 </head>
