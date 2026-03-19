@@ -11,13 +11,13 @@ Científico de datos con formación en **Física (UNAM)** y especialización en 
 ![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=postgresql&logoColor=white&color=ff79c6)
 ![LaTeX](https://img.shields.io/badge/LaTeX-8e44ad?style=for-the-badge&logo=latex&logoColor=white&color=8626e2)
 
-![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white&color=00ffff)
+![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white&color=8be9fd)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-3499CD?style=for-the-badge&logo=scikit-learn&logoColor=white&color=50fa7b)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&color=11d6b0)
 
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white&color=ffb86c)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white&color=8be9fd)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoCode=white&color=4174e5)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white&color=6272a4)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white&color=ff8000)
 ---
 
 ### 🚀 Proyectos Destacados
