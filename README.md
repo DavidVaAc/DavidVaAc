@@ -14,7 +14,7 @@ Científico de datos con formación en **Física (UNAM)** y especialización en 
 ![LaTeX](https://img.shields.io/badge/LaTeX-8e44ad?style=for-the-badge&logo=latex&logoColor=white&color=8626e2)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white&color=FF4500)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white&color=0000FF)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&color=8A0000)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&color=C70202)
 ---
 
 ### 🚀 Proyectos Destacados
