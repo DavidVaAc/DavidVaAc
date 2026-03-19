@@ -26,6 +26,11 @@
         .cyber-overlay {
             background-color: rgba(2, 6, 23, 0.85); /* Un azul/negro muy oscuro (bg-slate-950) con 85% de opacidad */
         }
+/* Esto ayuda a que el recorte del texto funcione incluso si hay extensiones activas */
+        [data-darkreader-ignore] {
+        -webkit-background-clip: text !important;
+        background-clip: text !important;
+        }
     </style>
     
 </head>
