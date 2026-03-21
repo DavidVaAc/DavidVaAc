@@ -19,7 +19,7 @@ Científico de datos con formación en **Física (UNAM)** y especialización en 
 
 ### 🚀 Proyectos Destacados
 
-#### 🛒 [Análisis de Segmentación en Retail](enlace-a-tu-repo)
+#### 🛒 [Análisis de Segmentación en Retail](https://github.com/DavidVaAc/instacart-market-basket-analysis)
 Análisis masivo de +470,000 órdenes de supermercado. 
 * **Impacto:** Identificación de clientes leales mediante modelos RFM y optimización de inventarios.
 * **Tech:** Python, Scikit-learn, Streamlit.
