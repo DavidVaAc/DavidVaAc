@@ -19,9 +19,11 @@ Científico de datos con formación en **Física (UNAM)** y especialización en 
 
 ### 🚀 Proyectos Destacados
 
-#### 🛒 [Análisis de Segmentación en Retail](https://github.com/DavidVaAc/instacart-market-basket-analysis)
-Análisis masivo de +470,000 órdenes de supermercado. 
-* **Impacto:** Identificación de clientes leales mediante modelos RFM y optimización de inventarios.
+#### 🛒 [Instacart Market Basket Analysis: Intelligence & Customer Loyalty](https://github.com/DavidVaAc/instacart-market-basket-analysis)
+
+Extraer inteligencia empresarial mediante la identificación de ventanas críticas de demanda, segmentación de usuarios por tasa de retorno y optimización del mix de productos.
+
+* **Impacto:** Identificación de clientes leales, optimización de inventarios y predicción de demanda con un enfoque de deciles de Pareto.
 * **Tech:** Python, Scikit-learn, Streamlit.
 
 #### 🤖 [IA Training & Robotics Data](enlace-a-tu-repo)
