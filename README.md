@@ -26,11 +26,11 @@ Extraer inteligencia empresarial mediante la identificación de ventanas crític
 * **Impacto:** Identificación de clientes leales, optimización de inventarios y predicción de demanda con un enfoque de deciles de Pareto.
 * **Tech:** Python, Scikit-learn, Streamlit.
 
-#### 🤖 IA Training & Robotics Data (Próximamente)
+#### 🤖 [IA Training & Robotics Data (Próximamente)](#-proyectos-destacados)
 Colaboración como Senior Reviewer en **Outlier/Scale AI**, validando la lógica matemática de modelos de lenguaje y recolección de datos para robótica.
 * **Valor:** Garantía de rigor lógico y optimización de modelos de IA de última generación.
 
-#### 🎾 Tennis Data Analytics (Personal Project) (Próximamente)
+#### 🎾 [Tennis Data Analytics (Personal Project) (Próximamente)](#-proyectos-destacados)
 Análisis de rendimiento y durabilidad de materiales en canchas de arcilla.
 * **Tech:** Web Scraping & Visualización de datos.
 
