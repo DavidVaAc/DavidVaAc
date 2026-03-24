@@ -24,7 +24,7 @@ Científico de datos con formación en **Física (UNAM)** y especialización en 
 Extraer inteligencia empresarial mediante la identificación de ventanas críticas de demanda, segmentación de usuarios por tasa de retorno y optimización del mix de productos.
 
 * **Impacto:** Identificación de clientes leales, optimización de inventarios y predicción de demanda con un enfoque de deciles de Pareto.
-* **Tech:** Python, Scikit-learn, Streamlit.
+* **Tech:** Python, Pandas, NumPy, Seaborn, Plotly, Streamlit.
 
 #### 🤖 [IA Training & Robotics Data (Próximamente)](#-proyectos-destacados)
 Colaboración como Senior Reviewer en **Outlier/Scale AI**, validando la lógica matemática de modelos de lenguaje y recolección de datos para robótica.
