@@ -26,6 +26,19 @@ Extraer inteligencia empresarial mediante la identificación de ventanas crític
 * **Impacto:** Identificación de clientes leales, optimización de inventarios y predicción de demanda con un enfoque de deciles de Pareto.
 * **Tech:** Python, Pandas, NumPy, Seaborn, Plotly, Streamlit.
 
+#### [🚗 Car Price Regressor: Valuación Automatizada de Vehículos Usados ⚙️](https://github.com/DavidVaAc/car-price-regressor)
+Pipeline completo de Machine Learning y aplicación interactiva diseñada para automatizar la tasación comercial de vehículos de segunda mano.
+
+* **📈 Valor e Impacto:**
+    * **Análisis de *Trade-off* en Producción:** Evalué y comparé **6 algoritmos de regresión** no solo bajo métricas estadísticas tradicionales de precisión, sino bajo criterios reales de ingeniería: **latencia de predicción y coste computacional de reentrenamiento**.
+    * **Garantía de Integridad en Frontend:** Diseñé una interfaz con **filtros dinámicos en cascada** que mitiga el riesgo de "datos basura", asegurando que el usuario solo pueda cotizar combinaciones de vehículos mecánicamente realistas.
+    * **Optimización de Infraestructura:** Implementé almacenamiento en formato **Apache Parquet**, reduciendo drásticamente el uso de memoria RAM y acelerando el tiempo de respuesta del servicio web.
+
+* **🛠️ Tecnologías Clave:**
+    * **Core ML:** Python, LightGBM (Algoritmo ganador), Scikit-Learn, Joblib.
+    * **Data & Optimization:** Pandas, PyArrow (Engine de Parquet).
+    * **Deployment:** Streamlit Cloud.
+
 #### 🤖 [IA Training & Robotics Data (Próximamente)](#-proyectos-destacados)
 Colaboración como Senior Reviewer en **Outlier/Scale AI**, validando la lógica matemática de modelos de lenguaje y recolección de datos para robótica.
 * **Valor:** Garantía de rigor lógico y optimización de modelos de IA de última generación.
