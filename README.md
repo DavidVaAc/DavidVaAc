@@ -1,4 +1,4 @@
-# David Fernando Valle Acosta | Data Scientist & ML Engineer 🚀
+# David Fernando Valle Acosta | Data Scientist & ML Engineer 🤖
 
 Físico por la UNAM y Científico de Datos especializado en el diseño de **pipelines robustos de Machine Learning (End-to-End)** y la optimización de infraestructuras de datos. Combino el rigor analítico de las ciencias exactas con estándares de ingeniería de software para transformar ecosistemas de datos masivos en modelos predictivos escalables y servicios web con alto valor de negocio.
 
@@ -21,7 +21,7 @@ Físico por la UNAM y Científico de Datos especializado en el diseño de **pipe
 
 ---
 
-### 🚀 Proyectos Destacados en Producción
+### ⚙️ Proyectos Destacados
 
 #### 🛒 [Instacart Market Basket Analysis: Optimización y Analítica de Consumo](https://github.com/DavidVaAc/instacart-market-basket-analysis)
 Extracción de inteligencia comercial y segmentación estratégica a partir de datos transaccionales masivos.
