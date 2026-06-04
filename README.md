@@ -14,7 +14,7 @@ Físico por la UNAM y Científico de Datos especializado en el diseño de **pipe
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white&color=150458" alt="Pandas"/>
   <img src="https://img.shields.io/badge/Scikit--Learn-3499CD?style=for-the-badge&logo=scikit-learn&logoColor=white&color=2E64FE" alt="Scikit-Learn"/>
   <img src="https://img.shields.io/badge/LightGBM-F37021?style=for-the-badge&logo=databricks&logoColor=white&color=F37021" alt="LightGBM"/>
-  <img src="https://img.shields.io/badge/Apache_Parquet-E2A446?style=for-the-badge&logo=apache&logoColor=white&color=E2A446" alt="Apache Parquet"/>
+  <img src="https://img.shields.io/badge/Apache_Parquet-E2A446?style=for-the-badge&logo=apache&logoColor=white&color=298F43" alt="Apache Parquet"/>
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white&color=FF4500" alt="Streamlit"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&color=C70202" alt="Git"/>
 </p>
