@@ -5,7 +5,7 @@ Físico por la UNAM y Científico de Datos especializado en el diseño de **pipe
 ### 🛠️ Arquitectura y Stack Tecnológico
 * **Core ML & Modelado:** Python (Scikit-Learn, LightGBM, Pandas, NumPy, SciPy).
 * **Ingeniería de Datos & Optimización:** SQL, Apache Parquet (PyArrow), Joblib, Web Scraping (BS4).
-* **Despliegue & Herramientas:** Streamlit Cloud, Git/GitHub, VS Code, Entornos Virtuales, LaTeX.
+* **Despliegue & Herramientas:** Render, Streamlit Cloud, Git/GitHub, VS Code, Entornos Virtuales, LaTeX.
 * **Especialidades:** Evaluación de *Trade-offs* de Algoritmos, Feature Engineering, Validación Temporal, Data Storytelling.
 
 <p align="left">
