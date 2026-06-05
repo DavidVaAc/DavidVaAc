@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
 <head>
     <link rel="icon" type="image/png" href="DV.png">
     <meta charset="UTF-8">
@@ -14,78 +14,69 @@
         .card { background-color: #1e293b; transition: transform 0.2s; }
         .card:hover { transform: translateY(-5px); border-color: #38bdf8; }
         .cyber-bg {
-            /* 1. Usamos tu imagen de fondo */
-            background-image: url('cyber-bg.jpg'); /* ASEGÚRATE DE QUE EL NOMBRE COINCIDA */
-            background-size: cover; /* La imagen cubre toda la pantalla */
-            background-position: center; /* Centrada */
-            background-repeat: no-repeat; /* No se repite */
-            background-attachment: fixed; /* El fondo se queda quieto al hacer scroll */
+            background-image: url('cyber-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
         }
         
-        /* 2. Este overlay oscuro es el secreto de la legibilidad */
         .cyber-overlay {
-            background-color: rgba(2, 6, 23, 0.85); /* Un azul/negro muy oscuro (bg-slate-950) con 85% de opacidad */
+            background-color: rgba(2, 6, 23, 0.85);
         }
-/* ... tus otros estilos (como el de la imagen de fondo) ... */
 
-    /* ESTO FUERZA AL GRADIENTE A MOSTRARSE */
         [data-darkreader-ignore] {
-        /* Bloqueamos que Dark Reader cambie el color del texto a gris/blanco */
             color: transparent !important;
-        
-        /* Forzamos que el fondo (el gradiente) sea visible detrás del texto */
             background-clip: text !important;
             -webkit-background-clip: text !important;
-        
-        /* Aseguramos que el gradiente no se convierta en un color sólido */
             background-image: linear-gradient(to right, #60A5FA, #34D399) !important;
-            }
-        /* Opcional: Si quieres que el efecto hover (opacidad) siga funcionando bien */
-            [data-darkreader-ignore]:hover {
-                opacity: 0.8 !important;
-    }
+        }
+        [data-darkreader-ignore]:hover {
+            opacity: 0.8 !important;
+        }
     </style>
-    
 </head>
 <body class="cyber-bg font-sans antialiased">
 <div class="cyber-overlay">
 <nav class="sticky top-0 z-50 bg-[#0f172a]/80 backdrop-blur-md border-b border-slate-800">
     <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
         <a href="#"
-            data-darkreader-ignore
-            class="text-xl font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent hover:opacity-80 transition-opacity">
+           data-darkreader-ignore
+           class="text-xl font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent hover:opacity-80 transition-opacity">
             DV
         </a>        
         <div class="flex items-center gap-6">
-            <div class="flex items-center gap-4">
-                <a href="#proyectos" class="text-sm text-slate-400 hover:text-white transition-colors">Proyectos</a>
-                <a href="#sobre-mi" class="text-sm text-slate-400 hover:text-white transition-colors">Sobre mí</a>                             
+            <div class="flex items-center gap-4 overflow-x-auto max-w-xs sm:max-w-none py-1">
+                <a href="#proyectos" class="text-xs sm:text-sm text-slate-400 hover:text-white transition-colors whitespace-nowrap">Proyectos</a>
+                <a href="#stack" class="text-xs sm:text-sm text-slate-400 hover:text-white transition-colors whitespace-nowrap">Stack</a>
+                <a href="#expertise" class="text-xs sm:text-sm text-slate-400 hover:text-white transition-colors whitespace-nowrap">Especialidades</a>
+                <a href="#competencias" class="text-xs sm:text-sm text-slate-400 hover:text-white transition-colors whitespace-nowrap">Competencias</a>
+                <a href="#sobre-mi" class="text-xs sm:text-sm text-slate-400 hover:text-white transition-colors whitespace-nowrap">Sobre mí</a>                             
             </div>
 
-            <div class="h-4 w-[1px] bg-slate-700"></div>
+            <div class="h-4 w-[1px] bg-slate-700 hidden sm:block"></div>
             
-            <div class="flex items-center gap-4 text-slate-400">
-                <a href="https://drive.google.com/file/d/1epmNOV5wLOiH2na0B_kiDaaevGUPrUdF/view?usp=sharing" class="hover:text-white transition-colors" title="Descargar Curriculum">
+            <div class="flex items-center gap-3 text-slate-400">
+                <a href="https://drive.google.com/file/d/1epmNOV5wLOiH2na0B_kiDaaevGUPrUdF/view?usp=sharing" target="_blank" class="hover:text-white transition-colors" title="Descargar Curriculum">
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/>
                     </svg>
                 </a>
                 <a href="https://www.linkedin.com/in/david-fernando-valle-acosta-b18268265/" target="_blank" class="hover:text-white transition-colors" title="LinkedIn">
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                 </a>
-
                 <a href="https://github.com/DavidVaAc" target="_blank" class="hover:text-white transition-colors" title="GitHub">
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
                 </a>
-
                 <a href="mailto:davidfervalle@gmail.com" class="hover:text-white transition-colors" title="Enviar Correo">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
                 </a>
             </div>
         </div>
     </div>
 </nav>
-    <main class="max-w-4xl mx-auto px-6 py-20">
+
+<main class="max-w-4xl mx-auto px-6 py-20">
 <header class="mb-20 text-center py-16 bg-gradient-to-b">
     <div class="max-w-3xl mx-auto px-6">
         <h1 data-darkreader-ignore 
@@ -98,7 +89,7 @@
 <div class="max-w-2xl mx-auto mb-10">
     <p class="text-xl text-slate-400 leading-relaxed text-center">
         <span class="block mt-4">
-            Físico de la <strong class="text-white">UNAM</strong> especializado en <strong class="text-white">Data Scientist</strong>. Especialista en convertir flujos de datos complejos en modelos predictivos accionables y valor de negocio tangible.
+            Físico de la <strong class="text-white">UNAM</strong> especializado en <strong class="text-white">Data Science</strong>. Especialista en convertir flujos de datos complejos en modelos predictivos accionables y valor de negocio tangible.
         </span>
     </p>
 </div>        
@@ -112,29 +103,194 @@
     </div>
 </header>
 
-        <section class="mb-24 scroll-mt-20" id="proyectos">
-            <h2 class="text-2xl font-semibold mb-8 border-b border-slate-700 pb-2 ">Proyectos Destacados</h2>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div class="card p-6 rounded-xl border border-slate-800">
-                    <h3 class="text-xl font-bold mb-2">Instacart Market Basket Analysis: Intelligence & Customer Loyalty</h3>
-                    <p class="text-slate-400 text-sm mb-4">Extraer inteligencia empresarial mediante la identificación de ventanas críticas de demanda, segmentación de usuarios por tasa de retorno y optimización del mix de productos.</p>
-                    <div class="flex gap-4">
-                        <a href="https://github.com/DavidVaAc/instacart-market-basket-analysis.git" class="text-blue-400 hover:underline text-sm font-medium">GitHub Repository</a>
-                        <a href="https://8lyyid3uaf6wn9a3cfxtev.streamlit.app/" class="text-emerald-400 hover:underline text-sm font-medium">Streamlit Dashboard</a>
-                    </div>
+<section id="proyectos" class="mb-24 scroll-mt-20">
+    <h2 class="text-2xl font-semibold mb-2 border-b border-slate-700 pb-2">Proyectos Técnicos Destacados</h2>
+    <p class="text-slate-400 text-sm mb-8">Soluciones reales implementadas con un enfoque estricto en eficiencia computacional e impacto operativo</p>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-slate-900/40 border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-blue-500/50 hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-500/5 transition-all duration-300">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <h3 class="text-lg font-bold text-slate-200">🚗 Car Price Regressor: Tasación Automatizada</h3>
+                    <span class="text-[10px] font-mono bg-blue-500/10 text-blue-400 px-2 py-0.5 rounded border border-blue-500/20">ML Engineering</span>
                 </div>
-
-                <div class="card p-6 rounded-xl border border-slate-800 flex flex-col">
-                    <h3 class="text-xl font-bold mb-2">Car Price Regressor: Valuación Automatizada de Vehículos Usados</h3>
-                    <p class="text-slate-400 text-sm mb-4">Pipeline completo de Machine Learning y aplicación interactiva diseñada para automatizar la tasación comercial de vehículos de segunda mano.</p>
-                    <div class="flex gap-4 text-sm font-medium mt-auto">
-                        <a href="https://github.com/DavidVaAc/car-price-regressor" class="text-blue-400 hover:underline">GitHub Repository</a>
-                        <a href="https://car-price-predictor-app-ml.streamlit.app/" class="text-emerald-400 hover:underline">Streamlit Dashboard</a>
-                    </div>
+                <p class="text-xs text-slate-400 mb-4 italic leading-relaxed">Pipeline completo diseñado para automatizar la valoración comercial y tasación óptima de vehículos usados.</p>
+                
+                <h4 class="text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Solución Técnica & Impacto:</h4>
+                <ul class="text-xs text-slate-400 space-y-2 list-disc pl-4 mb-6 leading-relaxed">
+                    <li>Evalué el <em>trade-off</em> de <strong>6 algoritmos de regresión</strong> analizando precisión estadística, latencia de predicción y costos de reentrenamiento, seleccionando LightGBM.</li>
+                    <li>Optimicé la lectura e infraestructura de datos implementando almacenamiento en formato <strong>Apache Parquet</strong>.</li>
+                    <li>Diseñé una interfaz protegida mediante <strong>filtros dinámicos en cascada</strong> para blindar el modelo contra la ingesta de datos basura.</li>
+                </ul>
+                
+                <div class="flex flex-wrap gap-1.5 mb-6">
+                    <span class="text-[10px] bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">LightGBM</span>
+                    <span class="text-[10px] bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">Apache Parquet</span>
+                    <span class="text-[10px] bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">Pipeline</span>
+                    <span class="text-[10px] bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">Streamlit</span>
                 </div>
             </div>
-        </section>
+            <div class="flex gap-4 text-xs font-medium pt-3 border-t border-slate-800/60">
+                <a href="https://github.com/DavidVaAc/car-price-regressor" target="_blank" class="text-blue-400 hover:underline">Ver Repositorio →</a>
+                <a href="https://car-price-predictor-app-ml.streamlit.app/" target="_blank" class="text-emerald-400 hover:underline">Demo en Vivo</a>
+            </div>
+        </div>
+
+        <div class="bg-slate-900/40 border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-emerald-500/50 hover:-translate-y-1 hover:shadow-xl hover:shadow-emerald-500/5 transition-all duration-300">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <h3 class="text-lg font-bold text-slate-200">🛒 Instacart Market Basket Analysis</h3>
+                    <span class="text-[10px] font-mono bg-emerald-500/10 text-emerald-400 px-2 py-0.5 rounded border border-emerald-500/20">Data Science</span>
+                </div>
+                <p class="text-xs text-slate-400 mb-4 italic leading-relaxed">Extracción de inteligencia comercial e identificación de dinámicas temporales sobre comportamiento de consumo masivo.</p>
+                
+                <h4 class="text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Solución Técnica & Impacto:</h4>
+                <ul class="text-xs text-slate-400 space-y-2 list-disc pl-4 mb-6 leading-relaxed">
+                    <li>Procesé y optimicé en memoria un ecosistema transaccional masivo de más de <strong>4.5 millones de registros</strong> utilizando técnicas de downcasting.</li>
+                    <li>Diseñé una segmentación por deciles de volumen aplicando las leyes de <strong>Pareto</strong>, descubriendo que el <strong>0.04% del catálogo</strong> genera el 10% de la demanda global.</li>
+                    <li>Desplegué un panel interactivo dinámico en la nube utilizando visualizaciones distribuidas en <strong>Plotly</strong>.</li>
+                </ul>
+                
+                <div class="flex flex-wrap gap-1.5 mb-6">
+                    <span class="text-[10px] bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">Optimización RAM</span>
+                    <span class="text-[10px] bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">Análisis Pareto</span>
+                    <span class="text-[10px] bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">Plotly D3</span>
+                    <span class="text-[10px] bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">Streamlit Cloud</span>
+                </div>
+            </div>
+            <div class="flex gap-4 text-xs font-medium pt-3 border-t border-slate-800/60">
+                <a href="https://github.com/DavidVaAc/instacart-market-basket-analysis.git" target="_blank" class="text-blue-400 hover:underline">Ver Repositorio →</a>
+                <a href="https://8lyyid3uaf6wn9a3cfxtev.streamlit.app/" target="_blank" class="text-emerald-400 hover:underline">Demo en Vivo</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="stack" class="mb-24 scroll-mt-20">
+    <h2 class="text-2xl font-semibold mb-2 border-b border-slate-700 pb-2">Stack Tecnológico</h2>
+    <p class="text-slate-400 text-sm mb-8">Herramientas e infraestructura que domino para materializar soluciones predictivas eficientes</p>
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-slate-900/20 border border-slate-800/60 rounded-xl p-5 hover:border-blue-500/40 hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-500/5 transition-all duration-300">
+            <h3 class="text-xs font-bold text-blue-400 tracking-wider uppercase mb-4">Machine Learning & AI</h3>
+            <div class="flex flex-wrap gap-2">
+                <span class="text-xs bg-slate-800/60 text-slate-300 px-2.5 py-1.5 rounded-lg border border-slate-700/40">Python</span>
+                <span class="text-xs bg-slate-800/60 text-slate-300 px-2.5 py-1.5 rounded-lg border border-slate-700/40">LightGBM</span>
+                <span class="text-xs bg-slate-800/60 text-slate-300 px-2.5 py-1.5 rounded-lg border border-slate-700/40">Scikit-Learn</span>
+                <span class="text-xs bg-slate-800/60 text-slate-300 px-2.5 py-1.5 rounded-lg border border-slate-700/40">SciPy</span>
+            </div>
+        </div>
+
+        <div class="bg-slate-900/20 border border-slate-800/60 rounded-xl p-5 hover:border-emerald-500/40 hover:-translate-y-1 hover:shadow-lg hover:shadow-emerald-500/5 transition-all duration-300">
+            <h3 class="text-xs font-bold text-emerald-400 tracking-wider uppercase mb-4">Data & Infrastructure</h3>
+            <div class="flex flex-wrap gap-2">
+                <span class="text-xs bg-slate-800/60 text-slate-300 px-2.5 py-1.5 rounded-lg border border-slate-700/40">SQL</span>
+                <span class="text-xs bg-slate-800/60 text-slate-300 px-2.5 py-1.5 rounded-lg border border-slate-700/40">Apache Parquet</span>
+                <span class="text-xs bg-slate-800/60 text-slate-300 px-2.5 py-1.5 rounded-lg border border-slate-700/40">PyArrow</span>
+                <span class="text-xs bg-slate-800/60 text-slate-300 px-2.5 py-1.5 rounded-lg border border-slate-700/40">Pandas</span>
+                <span class="text-xs bg-slate-800/60 text-slate-300 px-2.5 py-1.5 rounded-lg border border-slate-700/40">NumPy</span>
+            </div>
+        </div>
+
+        <div class="bg-slate-900/20 border border-slate-800/60 rounded-xl p-5 hover:border-purple-500/40 hover:-translate-y-1 hover:shadow-lg hover:shadow-purple-500/5 transition-all duration-300">
+            <h3 class="text-xs font-bold text-purple-400 tracking-wider uppercase mb-4">Deployment & UI</h3>
+            <div class="flex flex-wrap gap-2">
+                <span class="text-xs bg-slate-800/60 text-slate-300 px-2.5 py-1.5 rounded-lg border border-slate-700/40">Streamlit Cloud</span>
+                <span class="text-xs bg-slate-800/60 text-slate-300 px-2.5 py-1.5 rounded-lg border border-slate-700/40">Plotly D3</span>
+                <span class="text-xs bg-slate-800/60 text-slate-300 px-2.5 py-1.5 rounded-lg border border-slate-700/40">Web Scraping</span>
+                <span class="text-xs bg-slate-800/60 text-slate-300 px-2.5 py-1.5 rounded-lg border border-slate-700/40">Joblib</span>
+            </div>
+        </div>
+
+        <div class="bg-slate-900/20 border border-slate-800/60 rounded-xl p-5 hover:border-amber-500/40 hover:-translate-y-1 hover:shadow-lg hover:shadow-amber-500/5 transition-all duration-300">
+            <h3 class="text-xs font-bold text-amber-400 tracking-wider uppercase mb-4">Foundations & MLOps</h3>
+            <div class="flex flex-wrap gap-2">
+                <span class="text-xs bg-slate-800/60 text-slate-300 px-2.5 py-1.5 rounded-lg border border-slate-700/40">TimeSeriesSplit</span>
+                <span class="text-xs bg-slate-800/60 text-slate-300 px-2.5 py-1.5 rounded-lg border border-slate-700/40">Gradient Descent</span>
+                <span class="text-xs bg-slate-800/60 text-slate-300 px-2.5 py-1.5 rounded-lg border border-slate-700/40">Git / GitHub</span>
+                <span class="text-xs bg-slate-800/60 text-slate-300 px-2.5 py-1.5 rounded-lg border border-slate-700/40">LaTeX</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="expertise" class="mb-24 scroll-mt-20">
+    <h2 class="text-2xl font-semibold mb-2 border-b border-slate-700 pb-2">Especialidades</h2>
+    <p class="text-slate-400 text-sm mb-8">Combinando el rigor de la física teórica con ciencia de datos avanzada e ingeniería de Machine Learning</p>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-slate-900/40 border border-slate-800 rounded-xl p-6 hover:border-blue-500/50 hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-500/5 transition-all duration-300">
+            <h3 class="text-lg font-bold text-slate-200 mb-4 flex items-center gap-2">
+                <span class="text-blue-400">🌌</span> Modelado Matemático y Sistemas
+            </h3>
+            <ul class="space-y-3 text-sm text-slate-400 list-disc pl-4 leading-relaxed">
+                <li>Formación nativa en la <strong class="text-slate-300">UNAM</strong> para descomponer problemas abstractos y caóticos desde primeros principios.</li>
+                <li>Sólido dominio de álgebra lineal, cálculo multivariable y estadística inferencial para el desarrollo de algoritmos robustos.</li>
+                <li>Capacidad analítica profunda para estructurar hipótesis complejas y diseñar experimentos basados en evidencia cuantitativa.</li>
+            </ul>
+        </div>
+
+        <div class="bg-slate-900/40 border border-slate-800 rounded-xl p-6 hover:border-emerald-500/50 hover:-translate-y-1 hover:shadow-xl hover:shadow-emerald-500/5 transition-all duration-300">
+            <h3 class="text-lg font-bold text-slate-200 mb-4 flex items-center gap-2">
+                <span class="text-emerald-400">⚙️</span> Machine Learning & Pipelines
+            </h3>
+            <ul class="space-y-3 text-sm text-slate-400 list-disc pl-4 leading-relaxed">
+                <li>Desarrollo de pipelines <strong class="text-slate-300">End-to-End</strong>, priorizando algoritmos avanzados basados en árboles como <strong class="text-slate-300">LightGBM</strong>.</li>
+                <li>Evaluación rigurosa de modelos bajo criterios de producción: balanceando precisión estadística, latencia de inferencia y costos de cómputo.</li>
+                <li>Implementación de estrategias de validación correctas para datos secuenciales utilizando <strong class="text-slate-300">TimeSeriesSplit</strong>.</li>
+            </ul>
+        </div>
+
+        <div class="bg-slate-900/40 border border-slate-800 rounded-xl p-6 hover:border-purple-500/50 hover:-translate-y-1 hover:shadow-xl hover:shadow-purple-500/5 transition-all duration-300">
+            <h3 class="text-lg font-bold text-slate-200 mb-4 flex items-center gap-2">
+                <span class="text-purple-400">🤖</span> Auditoría de IA y Datos Masivos
+            </h3>
+            <ul class="space-y-3 text-sm text-slate-400 list-disc pl-4 leading-relaxed">
+                <li>Experiencia directa en <strong class="text-slate-300">Scale AI</strong> validando y auditando la consistencia lógica y matemática de modelos de lenguaje avanzados (LLMs).</li>
+                <li>Optimización de almacenamiento e ingeniería de variables sobre ecosistemas de datos masivos (millones de registros).</li>
+                <li>Despliegue ágil de aplicaciones y servicios web analíticos interactivos a través de <strong class="text-slate-300">Streamlit Cloud</strong>.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="competencias" class="mb-24 scroll-mt-20">
+    <h2 class="text-2xl font-semibold mb-2 border-b border-slate-700 pb-2">Competencias Centrales</h2>
+    <p class="text-slate-400 text-sm mb-8">Habilidades metodológicas orientadas a la entrega ágil de software de datos</p>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-slate-900/40 border border-slate-800 rounded-xl p-6 hover:border-blue-500/50 hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-500/5 transition-all duration-300">
+            <h3 class="text-sm font-bold text-blue-400 tracking-wide uppercase mb-4 border-b border-slate-800 pb-2">Habilidades Técnicas</h3>
+            <ul class="space-y-3 text-sm text-slate-400 list-none pl-0">
+                <li class="flex items-start gap-2">
+                    <span class="text-emerald-400 font-bold">✓</span> <span><strong>Proyectos End-to-End:</strong> Capacidad para estructurar pipelines desde la extracción e ingesta hasta el despliegue en la nube.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                    <span class="text-emerald-400 font-bold">✓</span> <span><strong>Optimización e Infraestructura:</strong> Reducción de deuda técnica y consumo de memoria RAM mediante tipado eficiente y almacenamiento binario columnar.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                    <span class="text-emerald-400 font-bold">✓</span> <span><strong>Calidad de Código:</strong> Desarrollo estructurado bajo entornos virtuales, asegurando análisis reproducibles, limpios y completamente documentados.</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="bg-slate-900/40 border border-slate-800 rounded-xl p-6 hover:border-emerald-500/50 hover:-translate-y-1 hover:shadow-xl hover:shadow-emerald-500/5 transition-all duration-300">
+            <h3 class="text-sm font-bold text-emerald-400 tracking-wide uppercase mb-4 border-b border-slate-800 pb-2">Análisis & Data Storytelling</h3>
+            <ul class="space-y-3 text-sm text-slate-400 list-none pl-0">
+                <li class="flex items-start gap-2">
+                    <span class="text-blue-400 font-bold">✓</span> <span><strong>Traducción de Negocio:</strong> Habilidad para convertir problemas comerciales abstractos en modelos de optimización matemática medibles.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                    <span class="text-blue-400 font-bold">✓</span> <span><strong>Data Storytelling Bilingüe:</strong> Comunicación fluida (Español/Inglés) estructurando visualizaciones que explican complejidad algorítmica a audiencias ejecutivas.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                    <span class="text-blue-400 font-bold">✓</span> <span><strong>Pensamiento de Primer Principio:</strong> Rigor científico absoluto orientado a la resolución meticulosa de problemas, asegurando claridad total en cada fase de ejecución.</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
 <section id="sobre-mi" class="mb-20 scroll-mt-20">
     <div class="container mb-12">
         <h2 class="text-2xl font-semibold mb-8 border-b border-slate-700 pb-2">Sobre mí</h2>
@@ -156,20 +312,22 @@
             <br>
         </div>
     </div>
+    
     <h2 class="text-2xl font-semibold mb-8 border-b border-slate-700 pb-2">Educación & Formación</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div class="card p-6 rounded-xl border border-slate-800">
+        <div class="card p-6 rounded-xl border border-slate-800 hover:border-blue-500/50 hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-500/5 transition-all duration-300">
             <h3 class="text-lg font-bold text-white">Licenciatura en Física</h3>
             <p class="text-blue-400 text-sm mb-2">UNAM</p>
             <p class="text-slate-400 text-xs italic">Formación en rigor científico y modelación matemática avanzada.</p>
         </div>
-        <div class="card p-6 rounded-xl border border-slate-800">
+        <div class="card p-6 rounded-xl border border-slate-800 hover:border-emerald-500/50 hover:-translate-y-1 hover:shadow-lg hover:shadow-emerald-500/5 transition-all duration-300">
             <h3 class="text-lg font-bold text-white">Data Science Professional</h3>
             <p class="text-emerald-400 text-sm mb-2">TripleTen | IBM Certificate</p>
             <p class="text-slate-400 text-xs italic">Especialización en algoritmos de ML, análisis estadístico y SQL.</p>
         </div>
     </div>
 </section>
+
 <section class="text-center py-20 border-t border-slate-800/50 mt-10">
     <h2 data-darkreader-ignore 
         class="text-3xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
@@ -196,24 +354,25 @@
             <svg class="w-4 h-4 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
             Email
         </a>
-        <a href="https://drive.google.com/file/d/1epmNOV5wLOiH2na0B_kiDaaevGUPrUdF/view?usp=sharing"
+        <a href="https://drive.google.com/file/d/1epmNOV5wLOiH2na0B_kiDaaevGUPrUdF/view?usp=sharing" target="_blank"
            class="flex items-center gap-2 px-6 py-2.5 bg-slate-800 border border-slate-700 rounded-full text-slate-200 hover:bg-slate-700 hover:border-white/30 transition-all text-sm font-medium">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/>
             </svg>
             Descargar CV
         </a>  
-    </div>    
+</div>
 </section>
-        <footer class="mt-20 pt-8 border-t border-slate-800 text-slate-500 text-sm flex justify-between">
-            <p>Cuernavaca, México</p>
-            <div class="flex gap-4">
-                <a href="mailto:davidfervalle@gmail.com" class="hover:text-white">Contacto</a>
-                <a href="https://www.linkedin.com/in/david-fernando-valle-acosta-b18268265/" class="hover:text-white">LinkedIn</a>
-                <a href="https://github.com/DavidVaAc" class="hover:text-white">GitHub</a>                
-            </div>
-        </footer>
-    </main>
+
+<footer class="mt-20 pt-8 border-t border-slate-800 text-slate-500 text-sm flex justify-between">
+    <p>Cuernavaca, México</p>
+    <div class="flex gap-4">
+        <a href="mailto:davidfervalle@gmail.com" class="hover:text-white">Contacto</a>
+        <a href="https://www.linkedin.com/in/david-fernando-valle-acosta-b18268265/" class="hover:text-white">LinkedIn</a>
+        <a href="https://github.com/DavidVaAc" class="hover:text-white">GitHub</a>                
+    </div>
+</footer>
+</main>
 </div>
 </body>
 </html>
