@@ -23,19 +23,19 @@ Físico por la UNAM y Científico de Datos especializado en el diseño de **pipe
 
 ### ⚙️ Proyectos Destacados
 
-#### 🛒 [Instacart Market Basket Analysis: Optimización y Analítica de Consumo](https://github.com/DavidVaAc/instacart-market-basket-analysis)
-Extracción de inteligencia comercial y segmentación estratégica a partir de datos transaccionales masivos.
-
-* **Ingeniería y Optimización:** Procesé y depuré un ecosistema con más de **4.5 millones de registros**, implementando *downcasting* de tipos de datos para reducir drásticamente el consumo de memoria RAM.
-* **Segmentación Estratégica (Pareto):** Diseñé un modelo por deciles de volumen, identificando una concentración extrema donde solo el **0.04% del catálogo (18 productos)** genera el **10% de las ventas**, permitiendo priorizar la cadena de suministro.
-* **Despliegue:** Analicé dinámicas temporales de recompra y publiqué un dashboard interactivo en **Streamlit Cloud** con visualizaciones dinámicas en **Plotly**.
-
 #### 🚗 [Car Price Regressor: Valuación Automatizada de Vehículos Usados](https://github.com/DavidVaAc/car-price-regressor)
 Pipeline completo de Machine Learning y aplicación interactiva diseñada para automatizar la tasación comercial de vehículos de segunda mano.
 
 * **Análisis de *Trade-off* en Producción:** Evalué **6 algoritmos de regresión** no solo bajo métricas estadísticas de precisión, sino bajo criterios reales de ingeniería: **latencia de predicción y coste computacional**, seleccionando LightGBM como modelo final.
 * **Garantía de Integridad (Frontend):** Diseñé una interfaz con **filtros dinámicos en cascada** que mitiga el riesgo de "datos basura", asegurando que el modelo solo reciba combinaciones mecánicamente realistas.
 * **Optimización de Infraestructura:** Implementé almacenamiento en formato **Apache Parquet**, acelerando el tiempo de respuesta del servicio web y reduciendo el peso de lectura de los datos.
+
+#### 🛒 [Instacart Market Basket Analysis: Optimización y Analítica de Consumo](https://github.com/DavidVaAc/instacart-market-basket-analysis)
+Extracción de inteligencia comercial y segmentación estratégica a partir de datos transaccionales masivos.
+
+* **Ingeniería y Optimización:** Procesé y depuré un ecosistema con más de **4.5 millones de registros**, implementando *downcasting* de tipos de datos para reducir drásticamente el consumo de memoria RAM.
+* **Segmentación Estratégica (Pareto):** Diseñé un modelo por deciles de volumen, identificando una concentración extrema donde solo el **0.04% del catálogo (18 productos)** genera el **10% de las ventas**, permitiendo priorizar la cadena de suministro.
+* **Despliegue:** Analicé dinámicas temporales de recompra y publiqué un dashboard interactivo en **Streamlit Cloud** con visualizaciones dinámicas en **Plotly**.
 
 ---
 
