@@ -50,6 +50,6 @@ Extracción de inteligencia comercial y segmentación estratégica a partir de d
 
 * 💼 **Portafolio Interactivo:** [davidvaac.github.io/DavidVaAc](https://davidvaac.github.io/DavidVaAc/#)
 * 🌐 **LinkedIn:** [in/david-fernando-valle-acosta](https://linkedin.com/in/david-fernando-valle-acosta)
-* 📋 **Currículum Vitae:** [Descargar CV en PDF](https://drive.google.com/file/d/1epmNOV5wLOiH2na0B_kiDaaevGUPrUdF/view?usp=sharing)
+* 📋 **Currículum Vitae:** [Descargar CV en PDF](https://drive.google.com/file/d/1qiQUyAmt3KGcFhBQ88-LPGflgPpHGs1m/view?usp=sharing)
 * ✉️ **Email:** davidfervalle@gmail.com
 * 📍 **Ubicación:** Cuernavaca, México.
