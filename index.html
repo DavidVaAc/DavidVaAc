@@ -108,6 +108,34 @@
     <p class="text-slate-400 text-sm mb-8">Soluciones reales implementadas con un enfoque estricto en eficiencia computacional e impacto operativo</p>
     
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-slate-900/40 border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-purple-500/50 hover:-translate-y-1 hover:shadow-xl hover:shadow-purple-500/5 transition-all duration-300">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <h3 class="text-lg font-bold text-slate-200">⚡ ERCOT Load Forecasting System</h3>
+                    <span class="text-[10px] font-mono bg-purple-500/10 text-purple-400 px-2 py-0.5 rounded border border-purple-500/20">MLOps & Time Series</span>
+                </div>
+                <p class="text-xs text-slate-400 mb-4 italic leading-relaxed">Pipeline de alta disponibilidad y modelo autorregresivo-termodinámico para el pronóstico de demanda energética horaria en Texas.</p>
+                
+                <h4 class="text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Solución Técnica & Impacto:</h4>
+                <ul class="text-xs text-slate-400 space-y-2 list-disc pl-4 mb-6 leading-relaxed">
+                    <li>Diseñé una arquitectura de <strong>failover en cascada de 3 niveles</strong> (Open-Meteo ➔ Visual Crossing ➔ Caché Local) garantizando tolerancia a fallos y un SLA continuo del servicio.</li>
+                    <li>Validé el LightGBM ante un <strong>año ciego de prueba (2025)</strong> tras entrenar con bloques de 2022-2024, alcanzando un sólido <strong>MAPE base de 3.11%</strong>.</li>
+                    <li>Desplegué un monitor dinámico en producción para mitigar la <strong>degradación del modelo (Model Decay)</strong> mediante alertas en semáforo para la toma de decisiones de reentrenamiento.</li>
+                </ul>
+                
+                <div class="flex flex-wrap gap-1.5 mb-6">
+                    <span class="text-[10px] bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">LightGBM</span>
+                    <span class="text-[10px] bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">Failover Pipeline</span>
+                    <span class="text-[10px] bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">MLOps Monitoring</span>
+                    <span class="text-[10px] bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">Streamlit Cloud</span>
+                </div>
+            </div>
+            <div class="flex gap-4 text-xs font-medium pt-3 border-t border-slate-800/60">
+                <a href="https://github.com/DavidVaAc/ercot-load-forecasting" target="_blank" class="text-blue-400 hover:underline">Ver Repositorio →</a>
+                <a href="https://ercot-load-forecasting-by-davidvaac.streamlit.app/" target="_blank" class="text-emerald-400 hover:underline">Demo en Vivo</a>
+            </div>
+        </div>
+
         <div class="bg-slate-900/40 border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-blue-500/50 hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-500/5 transition-all duration-300">
             <div>
                 <div class="flex justify-between items-start mb-3">
@@ -165,7 +193,6 @@
         </div>
     </div>
 </section>
-
 <section id="stack" class="mb-24 scroll-mt-20">
     <h2 class="text-2xl font-semibold mb-2 border-b border-slate-700 pb-2">Stack Tecnológico</h2>
     <p class="text-slate-400 text-sm mb-8">Herramientas e infraestructura que domino para materializar soluciones predictivas eficientes</p>

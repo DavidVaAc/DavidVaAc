@@ -23,6 +23,13 @@ Físico por la UNAM y Científico de Datos especializado en el diseño de **pipe
 
 ### ⚙️ Proyectos Destacados
 
+#### ⚡ [ERCOT Load Forecasting System: MLOps y Predicción Energética](https://github.com/DavidVaAc/ercot-load-forecasting)
+Pipeline completo de MLOps de alta disponibilidad y modelo autoregresivo-termodinámico para el pronóstico de demanda por hora en la red eléctrica aislada de Texas.
+
+* **Arquitectura de Failover en Cascada:** Diseñé un backend redundante de 3 niveles para la extracción climática en tiempo real (Open-Meteo API ➔ Visual Crossing API ➔ Caché Local) asegurando un SLA continuo frente a interrupciones de servicios externos.
+* **Rigor Metodológico y Validación Temporal:** Entrené el LightGBM con bloques de datos de 2022-2024 y lo evalué ante un **año completo de prueba ciego (2025)**, logrando un extraordinario **MAPE base de 3.11%** tras modelar la respuesta no lineal (curva parabólica en U) del consumo energético.
+* **Monitoreo de Degradación (*Model Decay*):** Implementé un monitor dinámico en vivo dentro del servicio de **Streamlit Cloud** que calcula desviaciones del error contra la línea base de R&D, disparando alertas en semáforo (Verde/Naranja/Rojo) para notificar al operador sobre la necesidad de reentrenamiento.
+
 #### 🚗 [Car Price Regressor: Valuación Automatizada de Vehículos Usados](https://github.com/DavidVaAc/car-price-regressor)
 Pipeline completo de Machine Learning y aplicación interactiva diseñada para automatizar la tasación comercial de vehículos de segunda mano.
 
